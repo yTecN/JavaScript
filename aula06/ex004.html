@@ -13,9 +13,11 @@
     </style>
 </head>
 <body>
+    <h1>>insira um título<</h1>
     <script>
         var nome = prompt('Qual é o seu nome? ')
-        document.write(`Seu nome tem ${nome.length} letras`)
+        document.write(`Seu nome tem <strong>${nome.length}</strong> letras<br/>`)
+        document.write(`\nSeu nome em maíusculo é ${nome.toUpperCase()}<br/>Em minusculo é ${nome.toLowerCase()}`)
     </script>
 </body>
 </html>
